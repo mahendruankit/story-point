@@ -15,7 +15,7 @@ body {
 
 .storypoint__header {
   max-width: 100%;
-  padding: 1em;
+  padding: 0.5em;
   text-align: center;
   background: $primary-color;
   color: $font-color;
@@ -52,4 +52,11 @@ button:hover {
 .spacer {
   background: $primary-color;
   padding: 1em;
+}
+
+.storypoint__header__github {
+  margin: 0.5em;
+  a {
+    color: $quaternary-color;
+  }
 }

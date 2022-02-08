@@ -1,5 +1,5 @@
-import './Footer.scss';
 import imagesResource from '../Resources/images';
+import './Footer.scss';
 
 function Footer() {
   return (
