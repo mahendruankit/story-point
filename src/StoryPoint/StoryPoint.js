@@ -1,11 +1,14 @@
 import { useState } from 'react';
+
+import React, { useRef } from 'react';
 import StoryPointModel from '../StoryPointModel';
 import StoryPointResult from '../StoryPointResult/StoryPointResult';
 import Footer from '../Footer/Footer';
 import './StoryPoint.scss';
 
 function StoryPoint() {
-  const [result, setResult] = useState(1);
+  const storyPointResultRef = useRef(null);
+  const [result, setResult] = useState(0);
   function handleOption(e) {
     setResult(e.target.innerHTML);
   }
@@ -24,7 +27,11 @@ function StoryPoint() {
           </button>
         ))}
       </div>
-      {result ? <StoryPointResult result={result} /> : ''}
+      {result > 0 ? (
+        <StoryPointResult ref={storyPointResultRef} result={result} />
+      ) : (
+        ''
+      )}
       <Footer />
     </div>
   );

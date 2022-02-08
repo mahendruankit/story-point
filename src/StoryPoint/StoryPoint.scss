@@ -10,6 +10,7 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  min-height: 100vh;
 }
 
 .storypoint__header {
@@ -25,6 +26,7 @@ body {
   text-align: center;
   font-size: $font-size;
   padding: 1em;
+  flex: 1;
 }
 
 .storypoint__option {
