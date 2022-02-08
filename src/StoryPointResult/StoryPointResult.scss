@@ -1,0 +1,18 @@
+@import '../variables.scss';
+
+.storypointresult {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  background: $primary-color;
+  color: $font-color;
+  font-size: $font-size-xl;
+  padding: 0.5em 0em 0.5em 0em;
+}
+
+@media only screen and (max-width: 600px) {
+  .storypointresult {
+    font-size: $font-size-xxl;
+    padding: 0.5em 0em 1em 0em;
+  }
+}

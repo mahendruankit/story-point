@@ -1,0 +1,26 @@
+@import '../variables.scss';
+
+.footer {
+  padding: 1em 0em 1em 0em;
+  bottom: 0;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  font-size: small;
+}
+
+.footer__logo {
+  margin: 0em 3em 1em 3em;
+}
+
+.footer__logo img {
+  width: auto;
+  height: 10em;
+}
+
+.footer__details {
+  a {
+    text-decoration: none;
+    color: $tertiary-color;
+  }
+}

@@ -1,0 +1,53 @@
+@import '../variables.scss';
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: $font-family;
+}
+
+.storypoint {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.storypoint__header {
+  max-width: 100%;
+  padding: 1em;
+  text-align: center;
+  background: $primary-color;
+  color: $font-color;
+  font-size: $font-size;
+}
+
+.storypoint__options {
+  text-align: center;
+  font-size: $font-size;
+  padding: 1em;
+}
+
+.storypoint__option {
+  margin: 1em;
+}
+
+button {
+  display: inline-block;
+  cursor: pointer;
+  margin: 1em;
+  border: 0;
+  font-weight: bold;
+  padding: 0 4em;
+  height: 3em;
+  line-height: 3em;
+  border-radius: 2.5em;
+}
+
+button:hover {
+  background-color: $secondary-color;
+}
+
+.spacer {
+  background: $primary-color;
+  padding: 1em;
+}
