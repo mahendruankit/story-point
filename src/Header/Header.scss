@@ -1,0 +1,17 @@
+@import '../variables.scss';
+
+.header {
+  max-width: 100%;
+  padding: 1em;
+  text-align: center;
+  background: $primary-color;
+  color: $font-color;
+  font-size: $font-size;
+}
+
+.header__github {
+  margin-top: 0.5em;
+  a {
+    color: $quaternary-color;
+  }
+}

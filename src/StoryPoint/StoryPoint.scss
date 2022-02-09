@@ -11,15 +11,7 @@ body {
   justify-content: center;
   flex-direction: column;
   min-height: 100vh;
-}
-
-.storypoint__header {
-  max-width: 100%;
-  padding: 1em;
-  text-align: center;
-  background: $primary-color;
-  color: $font-color;
-  font-size: $font-size;
+  min-width: 100vw;
 }
 
 .storypoint__options {
@@ -52,11 +44,4 @@ button:hover {
 .spacer {
   background: $primary-color;
   padding: 1em;
-}
-
-.storypoint__header__github {
-  margin-top: 0.5em;
-  a {
-    color: $quaternary-color;
-  }
 }
