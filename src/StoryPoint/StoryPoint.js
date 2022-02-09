@@ -16,13 +16,9 @@ function StoryPoint() {
   return (
     <div className='storypoint'>
       <Header />
-      <div className='storypoint__options'>
+      <div className='options'>
         {StoryPointModel.map((options, key) => (
-          <button
-            onClick={(e) => handleOption(e)}
-            key={key}
-            className='storypoint__option'
-          >
+          <button onClick={(e) => handleOption(e)} key={key} className='option'>
             {options}
           </button>
         ))}

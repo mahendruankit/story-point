@@ -24,3 +24,9 @@
     color: $tertiary-color;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    padding: 1em 0em 3.5em 0em;
+  }
+}
