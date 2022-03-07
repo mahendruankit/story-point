@@ -2,6 +2,13 @@
 
 https://storypoint.netlify.app/
 
+# What is it?
+Story point is a simple website that uses that Fibonacci scale to estimate work. You can select a number and show it on your phone whilst on a planning and refinment meetings. Why Fibonacci? Primarily as it is exponential rather than linear. This is useful when it comes to large & complex tasks. 
+
+# Why? 
+
+idk? saves paper (sticky notes/ post-it) note? I could use a chat application you say? Sure, I could. This is a classic case of over-engineering and I had nothing to do on a Tuesday night. Are you happy now? 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
